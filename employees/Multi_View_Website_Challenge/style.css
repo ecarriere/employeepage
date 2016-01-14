@@ -1,0 +1,44 @@
+header	{
+	background-color: blue;
+	
+}
+
+header>img	{
+	height: 300px;
+
+}
+
+header>div	{
+	font-family: Impact;
+	font-size: 55px;
+	font-weight: bold; 
+	display: inline-block;
+	position: absolute;
+	top: 80px;
+	left: 300px;
+}
+
+nav	{
+	display: inline-block;
+	font-color: black;
+	font-size: 30px;
+	word-spacing: 10px;
+	background-color: black;
+	float: right ;
+}
+
+nav a	{
+	color:white;
+	text-decoration: none;
+	font-family: bold;
+	margin: auto;
+	position: relative;
+	z-index: 1
+
+}
+
+.sidebar	{
+	background-color: rgb(96,184,255);
+	height: 1000px;
+	width: 150px;
+	float: left;
